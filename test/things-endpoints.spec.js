@@ -3,6 +3,7 @@ const app = require('../src/app')
 const helpers = require('./test-helpers')
 
 describe('Things Endpoints', function() {
+
   let db
 
   const {
@@ -200,4 +201,5 @@ describe('Things Endpoints', function() {
       })
     })
   })
+  
 })
